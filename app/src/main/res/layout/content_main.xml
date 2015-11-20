@@ -33,7 +33,7 @@
         android:background="#F08C35"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-        android:onClick="SpotifyClicked"/>
+        android:onClick="spotifyClicked"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -45,7 +45,8 @@
         android:background="#F08C35"
         android:layout_centerHorizontal="true"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="scoresClicked"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -57,7 +58,8 @@
         android:background="#F08C35"
         android:layout_centerHorizontal="true"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="libraryClicked"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -69,7 +71,8 @@
         android:background="#F08C35"
         android:layout_marginTop="10dp"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="buildClicked"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -81,7 +84,8 @@
         android:background="#F08C35"
         android:layout_marginTop="10dp"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="xyzClicked"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -93,7 +97,8 @@
         android:background="#FF0088"
         android:layout_marginTop="47dp"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="capstoneClicked"/>
 
 
 </RelativeLayout>
